@@ -5,7 +5,7 @@ It uses cURL, supports GET, POST, and PUT requests.
 Usage:
 
     $client = new NFSN-API-PHP-Client("username", "apikey");
-    $result = $client->post('/email/domain/setForward', array('forward': 'alias', 'dest_email': 'some@gmail.com'));
+    $result = $client->post('/email/domain/setForward', array('forward' => 'alias', 'dest_email' => 'some@gmail.com'));
     if($result['code'] == 200)
         echo 'Success!';
     else
